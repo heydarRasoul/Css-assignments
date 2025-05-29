@@ -33,7 +33,6 @@
   top: 400px;
 }
 .mission-background > img {
-  /* background-image: url(../assets/mission.png); */
   width: 105%;
   margin: 0px -9px;
   position: relative;
@@ -75,7 +74,7 @@
   height: 50px;
   background-color: rgb(20, 18, 41);
   margin-left: -9px;
-  /* display: block; */
+
   position: relative;
   top: 150px;
 }
@@ -89,17 +88,3 @@
   top: 13px;
   left: 200px;
 }
-/* footer > a {
-  color: white;
-  font-size: 20px;
-  margin-top: 200px;
-  display: inline;
-  text-decoration: none;
-  display: inline;
-}
-.footer h5 {
-  color: white;
-  font-size: 20px;
-  margin-top: 200px;
-  display: inline;
-} */
