@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+.navbar > img {
+  width: 64px;
+  height: 70px;
+  margin: auto;
+  padding: 17px;
+  display: block;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  background-color: rgba(22, 32, 55, 0.9);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  padding: 0px;
+}
+.hero-section video {
+  width: 100%;
+  position: absolute;
+  top: 104px;
+  left: 0px;
+  z-index: -1;
+}
+.hero-section img {
+  width: 258px;
+  height: 290px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 400px;
+}
+.mission-background > img {
+  /* background-image: url(../assets/mission.png); */
+  width: 105%;
+  margin: 0px -9px;
+  position: relative;
+  top: 605px;
+  left: 0px;
+  display: block;
+  z-index: -1;
+}
+.mission-section * {
+  color: white;
+  width: 760px;
+  margin: auto;
+  text-align: center;
+}
+.mission-section > h1 {
+  font-size: 70px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  display: block;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.mission-section > p {
+  margin-top: 50px;
+  font-size: 23px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+
+#font-awesome {
+  font-size: 40px;
+  margin-top: 200px;
+  display: block;
+}
+.footer-section {
+  width: 105%;
+  height: 50px;
+  background-color: rgb(20, 18, 41);
+  margin-left: -9px;
+  /* display: block; */
+  position: relative;
+  top: 150px;
+}
+.footer * {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0px 80px;
+  position: relative;
+  top: 13px;
+  left: 200px;
+}
+/* footer > a {
+  color: white;
+  font-size: 20px;
+  margin-top: 200px;
+  display: inline;
+  text-decoration: none;
+  display: inline;
+}
+.footer h5 {
+  color: white;
+  font-size: 20px;
+  margin-top: 200px;
+  display: inline;
+} */
