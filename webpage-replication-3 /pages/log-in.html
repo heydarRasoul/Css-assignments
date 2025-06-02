@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | The Flying Cowboys</title>
+    <link href="../styles/log-in.css" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-content">
+      <header>
+        <div class="navbar">
+          <img src="../assets/logo-large.png" alt="Flying-Cowboys" />
+        </div>
+        <div class="navbar">
+          <i class="fa-solid fa-house"></i>
+          <a href="./index.html">Home</a>
+        </div>
+        <div class="navbar">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          <a href="./log-in.html">Login</a>
+        </div>
+        <div class="navbar">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="../pages/contact.html">Contact</a>
+        </div>
+      </header>
+    </div>
+    <div class="hero-section">
+      <div class="photo-wrapper">
+        <img src="../assets/flight-log.jpg" alt="flight" />
+      </div>
+    </div>
+    <div class="body-content">
+      <div class="body-header">
+        <h3>Login<i class="fa-solid fa-right-to-bracket"></i></h3>
+      </div>
+      <div class="form-wrapper">
+        <form action="https://httpbin.org/post" method="POST">
+          <div>
+            <input
+              class="email-input"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              class="password-input"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit">
+            Submit <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
