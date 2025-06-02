@@ -47,6 +47,10 @@ html {
   display: block;
   z-index: -1;
 }
+.mission-background i {
+  position: relative;
+  left: 380px;
+}
 .mission-section * {
   color: white;
   width: 760px;
