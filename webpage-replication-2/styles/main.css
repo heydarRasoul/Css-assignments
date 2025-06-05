@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
-/* Reset & Base */
+
 body,
 html {
   margin: 0;
   padding: 0;
 }
 
-/* Navbar */
+
 .navbar {
   width: 100%;
   background-color: rgba(22, 32, 55, 0.9);
@@ -28,7 +28,7 @@ html {
   position: relative;
 }
 
-/* Hero Section */
+
 .hero-section video {
   width: 100%;
   position: absolute;
@@ -46,7 +46,7 @@ html {
   top: 400px;
 }
 
-/* Mission Background */
+
 .mission-background > img {
   width: 105%;
   margin: 0 -9px;
@@ -57,7 +57,7 @@ html {
   z-index: -1;
 }
 
-/* Mission Section */
+
 .mission-section * {
   color: white;
   width: 760px;
@@ -80,14 +80,14 @@ html {
   font-optical-sizing: auto;
 }
 
-/* Font Awesome Icon */
+
 #font-awesome {
   font-size: 40px;
   margin-top: 200px;
   display: block;
 }
 
-/* Footer Section */
+
 .footer-section {
   width: 100%;
   height: 50px;
@@ -107,7 +107,7 @@ html {
   left: 200px;
 }
 
-/* Contact Form */
+
 .contact-form * {
   position: relative;
   top: 80px;
@@ -130,7 +130,7 @@ html {
   width: 80px;
 }
 
-/* Return Button */
+
 .return-button {
   display: block;
   margin: auto;
