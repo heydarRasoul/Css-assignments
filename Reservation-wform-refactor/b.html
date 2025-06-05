@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Reservation Form</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <nav>
+          <div class="nav-container">
+            <i class="fa-solid fa-plane-departure" style="color: #9630c5"></i>
+          </div>
+          <div class="nav-container"><a href="../pages/home.html">Home</a></div>
+          <div class="nav-container">
+            <a href="../pages/packages.html">Packages</a>
+          </div>
+          <div class="nav-container">
+            <a href="../pages/about-us.html">About Us</a>
+          </div>
+          <div class="nav-container">
+            <a href="../pages/contact.html">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="hero-container">
+        <video class="hero-content-video" autoplay muted loop>
+          <source src="../assets/vacation-1.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="form_container">
+        <form action="https://httpbin.org/post" method="post">
+          <div class="field-wrapper">
+            <label for="first-name">First-Name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first_name"
+              placeholder="Please enter first-name"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <lable for="last-name">Last-Name</lable>
+            <input
+              type="text"
+              id="last-name"
+              name="last_name"
+              placeholder="Please onter last-name"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="user_name"
+              placeholder="Please enter email"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <label for="phone-number">Phone-Number</label>
+            <input
+              type="phone-number"
+              id="phone-number"
+              name="phone_number"
+              placeholder="Please enter phone"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <label for="destination">Choose your destination</label>
+            <select name="destination-field">
+              <option value="">Choose your destination</option>
+              <optipn value="europe">Europe</optipn>
+              <option value="mexico">Mexico</option>
+              <option value="japan">Japan</option>
+              <option value="Thailand">Thailand</option>
+              <option value="china">Chaina</option>
+            </select>
+          </div>
+
+          <div class="field-wrapper">
+            <label for="start-date">Start Date</label>
+            <input
+              type="date"
+              id="start-date"
+              name="start_date"
+              placeholder="Start-Date"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <lable for="end-date">End Date</lable>
+            <input
+              type="date"
+              id="end-date"
+              name="end_date"
+              placeholder="End-Date"
+              required
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <label for="hotel"
+              >Optional Accommodations (select if applicable):
+            </label>
+
+            <label for="hotel">Hotel</label>
+            <input
+              type="checkbox"
+              id="hotel"
+              name="accommodations"
+              value="Hotel"
+            />
+
+            <label for="rental-car">Rental Car</label>
+            <input
+              type="checkbox"
+              id="rental-car"
+              name="accommodations"
+              value="Rental-car"
+            />
+          </div>
+
+          <div class="field-wrapper">
+            <label class="package-radio" for="basic"
+              >Select Your Package:</label
+            >
+
+            <label for="basic">Basic</label>
+            <input
+              type="radio"
+              id="basic"
+              name="package"
+              value="Basic"
+              required
+            />
+
+            <label class="package-radio" for="premium">Premium</label>
+            <input
+              type="radio"
+              id="premium"
+              name="package"
+              value="Premium"
+              required
+            />
+          </div>
+          <br />
+          <div class="field-wrapper">
+            <label for="comments">Additional Comments or Requests:</label>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="6"
+              cols="32"
+              placeholder="Any special requests or questions:"
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">
+              <div><i class="fa-solid fa-paper-plane"></i>Submit</div>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="footer-container">
+        <div class="contact-info">
+          <i class="fa-solid fa-phone"></i>3859442118
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>123 W 2300S slc
+        </div>
+        <div class="copytight">&copy;Book Your Dream Getaway</div>
+      </div>
+    </div>
+  </body>
+</html>
