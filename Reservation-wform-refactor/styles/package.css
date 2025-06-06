@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../assets/flightticket.jpg");
+  background-size: cover;
+
+  background-position: center;
+}
+
+.packages-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2em 0 1em 3em;
+  background-color: rgba(129, 199, 240, 0.7);
+
+  font-size: 1.1em;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgba(59, 177, 246, 0.3);
+  padding: 1em;
+  height: 2em;
+  width: auto;
+  font-size: 1em;
+}
+
+
+@media screen and (max-width: 890px) {
+  body {
+    min-width: 600px;
+    
+  }
+  
+  .packages-section{
+    margin-left: 5.3em;
+    padding: 0 0 1em 3em;
+    background-color: rgba(175, 222, 250, 0.8);
+    
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(135, 196, 231, 0.8);
+    padding: 1em 3em;
+    height: 4em;
+    width: auto;
+    margin-left:6em ;
+}

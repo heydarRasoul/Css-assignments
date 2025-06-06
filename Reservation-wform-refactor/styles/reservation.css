@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-body-container {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../assets/Flight booking.webp");
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2em 2em 2em 3em;
+  background-color: rgba(129, 199, 240, 0.4);
+  box-shadow: 10px 1px 10px 1px #676565;
+  font-size: 1.1em;
+}
+
+
+form > .field-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(8, 121, 178);
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+
+input, .select-section {
+  width: 200px;
+  height: 25px;
+}
+
+input::placeholder,
+textarea::placeholder,
+.select-section::placeholder {
+  color: rgb(88, 155, 197);
+  font-style: italic;
+  padding-left: 3px;
+}
+
+input:required, .select-section:required {
+  border-color: rgb(228, 162, 121);
+}
+
+button {
+  background-color: rgb(157, 218, 253);
+  width: 208px;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 8px 8px 12px 1px #514a73;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(59, 177, 246, 0.3);
+  padding: 20px;
+  height: 40px;
+  width: auto;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 890px) {
+  body {
+    min-width: 600px;
+  }
+
+  
+
+  form{
+    margin-left: 4em;
+  }
+ 
+
+  
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(59, 177, 246, 0.3);
+    margin-left:6em ;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-container,
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-container > h1 {
+  align-self: center;
+  color: rgb(249, 250, 251);
+  z-index: 1;
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4em;
+  padding: 7em 0;
+  text-shadow: -5px 33px 5px #5c5b5d;
+}
+
+.hero-video {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  width: 100vw;
+
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-container > p {
+  align-self: center;
+  font-size: 2em;
+  width: 60%;
+  padding: 3em;
+  text-align: center;
+  background-color: rgba(36, 107, 148, 0.2);
+  box-shadow: 0px 15px 13px 1px #525151;
+}
+
+.content-container h3 {
+  align-self: center;
+  font-size: 1.5em;
+}
+
+.list-wrapper {
+  align-self: center;
+  font-size: 1.4em;
+  background-color: rgba(36, 107, 148, 0.2);
+  box-shadow: 0px 15px 13px 1px #525151;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgba(59, 177, 246, 0.3);
+  padding: 1em;
+  height: 2em;
+  width: auto;
+  font-size: 1em;
+}
+
+
+@media screen and (max-width: 890px) {
+  body {
+    min-width: 600px;
+  }
+
+  .hero-container > h1 {
+    text-align: center;
+    padding: 1em 4em;
+    color: rgb(44, 77, 125);
+  }
+
+  .hero-video {
+    position: fixed;
+    min-width: 800px;
+    top: 0;
+    left: 0;
+  }
+
+  .content-container > p {
+    font-size: 1.5em;
+    width: 40%;
+    padding: 2em;
+    margin-left: 8em;
+    min-width: 500px;
+  }
+
+  .content-container h3 {
+    margin-left: 8em;
+  }
+
+  .list-wrapper {
+    font-size: 1.4em;
+    width: 40%;
+    margin-left: 8em;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(135, 196, 231, 0.8);
+    padding: 1em 3em;
+    height: 4em;
+    width: auto;
+    margin-left:6em ;
+}
+
