@@ -9,6 +9,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-image: url("../assets/Flight booking.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
